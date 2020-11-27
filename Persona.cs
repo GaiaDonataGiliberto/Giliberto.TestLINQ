@@ -21,37 +21,6 @@ namespace Giliberto.TestLINQ
 
         public string Nazione { get; set; }
 
-        /* Scrivere un extension method della classe Persona(VeicoliPosseduti(List<Veicoli> elencoVeicoli) ) 
-         * che restituisca l’elenco dei veicoli posseduti(campi: ID, Targa, Prezzo)
-         */
-
-        //public static String VeicoliPosseduti(this Persona value, List<Veicolo> elencoVeicoli)
-        //{
-        //    var lista = new List<Veicolo>();
-
-        //    string ris = "";
-
-        //    foreach (Veicolo v in elencoVeicoli)
-        //    {
-        //        if (v.IDProprietario == value.ID)
-        //        {
-        //            lista.Add(v);
-        //        }
-        //    }
-
-
-        //    if (lista == null)
-        //    {
-        //        ris = "Questa persona non possiede veicoli.";
-        //    }
-        //    else
-        //    {
-        //        ris = lista.ToString();
-        //    }
-
-
-        //    return ris;
-        //}
 
     }
 }

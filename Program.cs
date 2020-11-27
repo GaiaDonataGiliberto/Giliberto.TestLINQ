@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+//using System.Collections;
 
 namespace Giliberto.TestLINQ
 {
@@ -12,7 +14,11 @@ namespace Giliberto.TestLINQ
 
             //Esercizio.PesoPrezzoMedioPerProp();
 
-            Persona.VeicoliPosseduti();
+            Persona p = new Persona { ID = 3, Nome = "Marco", Cognome = "Aurelio", Nazione = "Svizzera" };
+
+
+
+            Console.WriteLine(p.VeicoliPosseduti(Esercizio.veicoloList.ToList())); 
 
             Console.ReadLine();
 

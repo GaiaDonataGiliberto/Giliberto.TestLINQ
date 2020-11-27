@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Giliberto.TestLINQ
 {
-    class Esercizio
+    public class Esercizio
     {
         static IEnumerable<Person> personList = new List<Person>
             {
@@ -29,7 +29,9 @@ namespace Giliberto.TestLINQ
             new Persona {ID = 6, Nome = "Samantha", Cognome = "Cristoforetti", Nazione = "Italia"}
         };
 
-        static IEnumerable<Veicolo> veicoloList = new List<Veicolo>
+        
+
+        public static IEnumerable<Veicolo> veicoloList = new List<Veicolo>
         {
             new Veicolo {ID = 1, Targa = "AA345LH", Peso = 550.67, Colore = "Nero", Prezzo = 3000, IDProprietario = 1},
             new Veicolo {ID = 2, Targa = "FG930OP", Peso = 800.34, Colore = "Blu", Prezzo = 24400, IDProprietario = 3},
